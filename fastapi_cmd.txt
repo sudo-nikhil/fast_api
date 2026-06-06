@@ -1,0 +1,7 @@
+# fast api commands
+
+py -m venv env
+.\env\Scripts\Activate 
+pip install fastapi["standard"]
+fastapi run 
+fastapi dev main.py
